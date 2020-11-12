@@ -1,3 +1,6 @@
+import anabeatrix.LeituraRetornoBradesco;
+import anabeatrix.ProcessadorBoletos;
+
 /**
  * @author anabeatriz
  * Baseado no vídeo disponível em:

@@ -1,3 +1,8 @@
+package anabeatrix;
+
+import anabeatrix.Boleto;
+import anabeatrix.LeituraRetorno;
+
 import java.time.LocalDate;
 
 /**
@@ -5,7 +10,7 @@ import java.time.LocalDate;
  * Baseado no vídeo disponível em:
  * https://www.youtube.com/watch?v=rg8_0f6bWWo
  */
-public class LeituraRetornoBancoBrasil implements LeituraRetorno{
+public class LeituraRetornoBancoBrasil implements LeituraRetorno {
 
     @Override
     public Boleto processarLinhaArquivo(String[] vetorLinhaArquivo) {

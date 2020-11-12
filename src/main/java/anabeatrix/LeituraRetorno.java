@@ -1,3 +1,7 @@
+package anabeatrix;
+
+import anabeatrix.Boleto;
+
 import java.time.format.DateTimeFormatter;
 
 /**
